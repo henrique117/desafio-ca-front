@@ -13,3 +13,9 @@
     justify-content: center;
     padding: 4rem;
 }
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
