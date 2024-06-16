@@ -1,0 +1,59 @@
+.geral {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 4rem;
+}
+
+.dashboardTitle {
+    display: flex;
+    padding-left: 2rem;
+    align-items: center;
+}
+
+.profileClass {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+img {
+    padding-right: 2rem;
+}
+
+.emblemasTitle {
+    padding-top: 4rem;
+    padding-bottom: 1.5rem;
+    padding-left: 1rem;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 70%;
+    margin-bottom: 6rem;
+}
+
+.emblemasIcons {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    width: 80%;
+    overflow-y: scroll;
+    height: 69%;
+}
+
+.emblemasRow {
+    display: flex;
+}

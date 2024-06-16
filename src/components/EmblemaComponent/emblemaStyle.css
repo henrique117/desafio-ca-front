@@ -1,0 +1,22 @@
+.emblemasFull {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-inline: 2rem;
+    margin-bottom: 1rem;
+    width: 15%;
+}
+
+.emblemas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin-left: 35px;
+}
+
+h2 {
+    margin-top: 0.3rem;
+    text-align: center;
+}
