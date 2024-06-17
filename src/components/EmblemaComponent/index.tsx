@@ -1,10 +1,19 @@
+import React from 'react'
 import './emblemaStyle.css'
 
-export default function EmblemaComponent() {
+interface EmblemasProps {
+    image: string
+    name: string
+}
+
+const EmblemaComponent: React.FC<EmblemasProps> = ({ image, name }) => {
+
     return (
         <div className="emblemasFull ">
-            <img className="emblemas" src="https://cidadealtarp.com/imagens/challenge/cidade-alta.png" alt="" />
-            <h2 className="emblemaName w-full h-1/5">Cidade Alta Valley</h2>
+            <img className="emblemas" src={image} alt="" />
+            <h2 className="emblemaName w-full h-1/5">{name}</h2>
         </div>
     )
 }
+
+export default EmblemaComponent

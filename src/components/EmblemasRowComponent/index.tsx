@@ -1,13 +1,18 @@
 import { EmblemaComponent } from '../exports'
 import './emblemasRowstyle.css'
 
-export default function EmblemasRowComponent() {
+interface RowProps {
+    emblemas: any[]
+}
+
+const EmblemasRowComponent: React.FC<RowProps> = ({ emblemas }) => {
     return (
         <div>
-            <EmblemaComponent />
-            <EmblemaComponent />
-            <EmblemaComponent />
-            <EmblemaComponent />
+            {emblemas.map((emblema, index) => (
+                <EmblemaComponent name={emblema.name} image={emblema.image} key={index} />
+            ))}
         </div>
     )
 }
+
+export default EmblemasRowComponent
